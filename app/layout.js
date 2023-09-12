@@ -18,11 +18,12 @@ export default function RootLayout({ children }) {
 					href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
 					rel="stylesheet"
 				></link>
+				<Script src="https://cdn.tailwindcss.com" />
 			</head>
 
 			<body className={inter.className}>
 				{children}
-				<Script src="https://cdn.tailwindcss.com" />
+
 				<Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" />
 			</body>
 		</html>
