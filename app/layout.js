@@ -16,8 +16,7 @@ export default function RootLayout({ children }) {
 				<link
 					href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
 					rel="stylesheet"
-					integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-					crossorigin="anonymous"
+					
 				></link>
         <Script src='https://cdn.tailwindcss.com'/>
 			</head>
@@ -25,8 +24,7 @@ export default function RootLayout({ children }) {
 				{children}
 				<Script
 					src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-					integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-					crossOrigin="anonymous"
+					
 				/>
 			</body>
 		</html>
