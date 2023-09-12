@@ -49,3 +49,15 @@ color:white;
 .card-img-top {
   width: 60%!important;
 }
+.adjust{
+  display: flex;
+}
+.bgg3{
+  background: linear-gradient(180deg, rgba(51, 104, 224, 0.90) 50%, rgba(70, 20, 70, 0.90) 100%);
+}
+@media only screen and (max-width: 600px) {
+
+.adjust{
+  display: block;
+}
+}
